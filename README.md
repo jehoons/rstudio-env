@@ -24,6 +24,11 @@ $ docker container run --rm -p 8787:8787 -v ${PWD}:/home/rstudio -w /home/rstudi
 ```
 $ docker-compose -f /path/to/docker-rstudio-server/docker-compose.yml up
 ```
+
+## Package install 
+
+https://blog.sellorm.com/2017/10/21/quick-script-to-install-an-r-package-from-the-command-line/
+
 ## Reference
 
 https://hub.docker.com/r/dceoy/rstudio-server/
